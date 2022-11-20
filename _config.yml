@@ -42,10 +42,9 @@ linkedin_username: babak-gholampour-85985846
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile_image.jpg
+about_profile_image: images/profile_image.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Software developer with over 6 years’ experience, especially in designing, developing and testing Android Applications.Experienced in creating readable and easily maintainable source code. Also highly motivated in learning new technologies and work in a team to achieve teamwork advantages.
-    
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
