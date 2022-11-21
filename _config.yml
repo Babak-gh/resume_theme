@@ -3,7 +3,7 @@
 favicon: images/favicon.png
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Babak Gholampour
@@ -46,6 +46,71 @@ about_profile_image: images/profile_image.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Software developer with over 6 years’ experience, especially in designing, developing and testing Android Applications.Experienced in creating readable and easily maintainable source code. Also highly motivated in learning new technologies and work in a team to achieve teamwork advantages.
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: Naika DAO
+        sub_title: Android Development Lead
+        caption: February 2021 - present
+        link: https://naika.io
+        quote: >
+          The vision of naika is to create a new kind of operating system: one that is open, permissionless and decentralised. NaikaOS is based on Google's Android Open Source Project that we transformed to free your device into a permissionless environment. Users, developers, and device manufacturers will reclaim their sovereignty, end-to-end.
+        description: | # this will include new lines to allow paragraphs
+          - Design and development of Naika Pay library. Naika Pay is an Android library which enables dApps (decentralized Android Application) developers to integrate payment with cryptocurrencies in their product.
+          - Design and development of Naika dApp Store, an Android application that hosts dApps and let user install/uninstall dApps on user’s Android device.
+          - Experience working with different Blockchain/Web3.0 protocols and technologies like Web3j, Wallet Connect and Ethereum smart contracts.
+      - layout: top-left
+        title: CodeFeld
+        sub_title: Android Development Lead
+        caption: February 2020 - February 2021
+        link:
+        quote: >
+          CodeFeld is a German/Iranian company that its focus is 		providing end-to-end mobile app development services.
+        description: | # this will include new lines to allow paragraphs
+          - Design and implementation of a chat module using Socket.io.
+          - Contribute on application’s system architecture and API design.
+          - Design and implementation of SQLite databases using Room.
+          - Implementing Hilt and Kotlin Koin as dependency injection frameworks.
+          - Ensure codes that written by team is clear, clean and efficient.
+      - layout: top-left
+        title: Alopeyk On-demand delivery
+        sub_title: Senior Android Developer
+        caption: February 2019 - February 2020
+        link: https://alopeyk.com
+        quote: >
+          AloPeyk is the leading on-demand urban logistics platform with about 4 million active users in Iran, bringing instant delivery within anyone's reach. It uses an extensive network of motorcycle couriers to form a logistics network that's fast, cheap and reliable.
+        description: | # this will include new lines to allow paragraphs
+          - Choosing MVVM as a suitable deign pattern for the project.
+          - Write fully modular components for the project.
+          - Choosing Kotlin as primary programming language.
+          - Using Kotlin Coroutines for asynchronous programming.
+          - Using Android Architecture Components for write robust, testable and maintainable codes.
+          - Writing unit test with over 60 percent code coverage.
+      - layout: top-left
+        title: Bisphone Telecom
+        sub_title: Senior Android Developer
+        caption: November 2017 - February 2019
+        link:
+        quote: >
+          BisPhone is a communication app for smart phones. It’s easy to use and optimized and convenient for everyday use. BisPhone recommended the easiest way for sending various type of messages such as text messages, media messages, location, file and etc.
+        description: | # this will include new lines to allow paragraphs
+          - Contribute and design many new feature specifications.
+          - Ensure codes that written by team is clear, clean and efficient.
+          - Implementing End to End Encryption Secret Chat with Diffie-Hellman key exchange and AES encryption.
+          - Implementing resumable file and media download/upload.
+      - layout: top-left
+        title: Bisphone Telecom
+        sub_title: Android Developer
+        caption: January 2016 - November 2017
+        link:
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          - Implementing app2app and app2out call over VOIP in BisphonePlus with PJSIP (SIP implementation on NDK).
+          - Design and implement many RPCs with server using protocol buffers (Google’s data interchange format)
+          - Develop the database wrapper functions for data staging and modeled the data objects relevant to the mobile application.
+          - Implementing gallery and media manipulation in project.
+          - Implementing custom view components and UI.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -65,19 +130,7 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Description about the work on/with the project          
   - title: Education
     layout: list
     content:
@@ -91,7 +144,7 @@ content:
 #          Description of qualification
       - layout: top-left
         title: Shahrood University of Technology - Shahrood, Iran
-        sub_title: Bachelor of Science:Information Technology Engineering
+        sub_title: Bachelor of Science:Information Technoloy Engineering
         caption: 2013
       - layout: top-left
         title: TUV Academy Rheinland Germany - Iran
