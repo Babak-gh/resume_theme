@@ -44,14 +44,16 @@ linkedin_username: babak-gholampour-85985846
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile_image.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Software developer with over 6 years’ experience, especially in designing, developing and testing Android Applications.Experienced in creating readable and easily maintainable source code. Also highly motivated in learning new technologies and work in a team to achieve teamwork advantages.
+  Software developer with over 7 years’ experience, especially in designing, developing and testing Android Applications. Experienced in creating readable and easily maintainable source code. Also highly motivated in learning new technologies and work in a team to achieve teamwork advantages.
+  
+  Also my recent experience involved designing and implementing solutions for integrating blockchain and web3.0 technologies into Android devices.
 content:
   - title: Experience
     layout: list
     content:
       - layout: top-left
         title: Naika DAO
-        sub_title: Android Development Lead
+        sub_title: Lead Android Developer
         caption: February 2021 - present
         link: https://naika.io
         quote: >
@@ -62,7 +64,7 @@ content:
           - Experience working with different Blockchain/Web3.0 protocols and technologies like Web3j, Wallet Connect and Ethereum smart contracts.
       - layout: top-left
         title: CodeFeld
-        sub_title: Android Development Lead
+        sub_title: Lead Android Developer
         caption: February 2020 - February 2021
         link:
         quote: >
@@ -89,7 +91,7 @@ content:
           - Writing unit test with over 60 percent code coverage.
       - layout: top-left
         title: Bisphone Telecom
-        sub_title: Senior Android Developer
+        sub_title: Lead Android Developer
         caption: November 2017 - February 2019
         link:
         quote: >
@@ -117,20 +119,31 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Naika Pay Android Library
+        link: https://naika.io/
+        link_text: Naika DAO
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Naika Pay Library Github
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Naika-DAO/NaikaPay-Library
         quote: >
-          Short overview of the project (optional)
+          Android In-Dapp Crypto Payment SDK for Naika Ecosystem.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project          
+          Naika Pay Android SDK is a library that enables Android applications to have in-dapp crypto payments. Naika Pay Android SDK needs to sign smart contract transactions using the user's private key, but it does not keeps or store the user's private key as it is an unsecure approach.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Naika Dapp Store
+        link: https://naika.io/
+        link_text: Naika DAO
+        additional_links:
+          - title:  Dapp Store Github
+            icon: fab fa-github
+            url: https://github.com/Naika-DAO/Dapp-Store
+        quote: >
+          Decentralized Application (dApp) Store for Android
+        description: | # this will include new lines to allow paragraphs
+          The Naika Dapp Store is a decentralized Android app store that supports native and web3 dApps.
   - title: Education
     layout: list
     content:
@@ -150,12 +163,18 @@ content:
         title: TUV Academy Rheinland Germany - Iran
         sub_title: Certificate:Introduction to Data Mining
         caption: 2011
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - Android application development with Kotlin and Java
+      - Experienced in software design
+      - Experienced in AndroidX libraries like WorkManager and Livedata
+      - Experienced in working with 3rd party libraries like Retrofit, Glide, Kotlin Coroutines, Hilt(dependency injection) and etc
+      - Experienced in Object Oriented programming
+      - Strong understanding of Blockchain and Web3.0 technologies, including Smart Contracts, Solidity, EVM networks, and public/private keys.
+      - Experienced in work with tools like GIT as VCS
+      - Complex problem-solving
+      - Fluent in English
 
 # Footer
 footer_show_references: true
