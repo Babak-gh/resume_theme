@@ -26,10 +26,10 @@ linkedin_username: babak-gholampour-85985846
 
 
 # Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
+additional_links:
+- title: Download PDF Version
+  icon: fab fa-dochub
+  url: https://google.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,9 +46,9 @@ about_profile_image: images/profile_image.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Software developer with over 7 years’ experience, especially in designing, developing and testing Android Applications. Experienced in creating readable and easily maintainable source code. Also highly motivated in learning new technologies and work in a team to achieve teamwork advantages.
   
-  Also my recent experience involved designing and implementing solutions for integrating blockchain and web3.0 technologies into Android devices.
+  My recent experience involved designing and implementing solutions for integrating blockchain and web3.0 technologies into Android devices.
 content:
-  - title: Experience
+  - title: Experiences
     layout: list
     content:
       - layout: top-left
@@ -59,9 +59,10 @@ content:
         quote: >
           The vision of naika is to create a new kind of operating system: one that is open, permissionless and decentralised. NaikaOS is based on Google's Android Open Source Project that we transformed to free your device into a permissionless environment. Users, developers, and device manufacturers will reclaim their sovereignty, end-to-end.
         description: | # this will include new lines to allow paragraphs
-          - Design and development of Naika Pay library. Naika Pay is an Android library which enables dApps (decentralized Android Application) developers to integrate payment with cryptocurrencies in their product.
-          - Design and development of Naika dApp Store, an Android application that hosts dApps and let user install/uninstall dApps on user’s Android device.
+          - Design and development of Naika Pay library. Naika Pay is an Android library which enables dApp (decentralized Android Application) developers to integrate payment with cryptocurrencies in their products.
+          - Design and development of Naika dApp Store, an Android application that hosts dApps and allows users to install/uninstall dApps on their Android devices.
           - Experience working with different Blockchain/Web3.0 protocols and technologies like Web3j, Wallet Connect and Ethereum smart contracts.
+          - Participation in technical and planning meetings with other teams. 
       - layout: top-left
         title: CodeFeld
         sub_title: Lead Android Developer
@@ -75,6 +76,7 @@ content:
           - Design and implementation of SQLite databases using Room.
           - Implementing Hilt and Kotlin Koin as dependency injection frameworks.
           - Ensure codes that written by team is clear, clean and efficient.
+          - LeakCanary library was used for tracking of memory leaks.
       - layout: top-left
         title: Alopeyk On-demand delivery
         sub_title: Senior Android Developer
@@ -91,7 +93,7 @@ content:
           - Writing unit test with over 60 percent code coverage.
       - layout: top-left
         title: Bisphone Telecom
-        sub_title: Lead Android Developer
+        sub_title: Senior Android Developer
         caption: November 2017 - February 2019
         link:
         quote: >
@@ -159,10 +161,10 @@ content:
         title: Shahrood University of Technology - Shahrood, Iran
         sub_title: Bachelor of Science:Information Technoloy Engineering
         caption: 2013
-      - layout: top-left
-        title: TUV Academy Rheinland Germany - Iran
-        sub_title: Certificate:Introduction to Data Mining
-        caption: 2011
+#      - layout: top-left
+#        title: TUV Academy Rheinland Germany - Iran
+#        sub_title: Certificate:Introduction to Data Mining
+#        caption: 2011
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -171,8 +173,9 @@ content:
       - Experienced in AndroidX libraries like WorkManager and Livedata
       - Experienced in working with 3rd party libraries like Retrofit, Glide, Kotlin Coroutines, Hilt(dependency injection) and etc
       - Experienced in Object Oriented programming
-      - Strong understanding of Blockchain and Web3.0 technologies, including Smart Contracts, Solidity, EVM networks, and public/private keys.
+      - Strong understanding of Blockchain and Web3.0 technologies, including Smart Contracts, Solidity, EVM networks, and public/private keys
       - Experienced in work with tools like GIT as VCS
+      - Ability to learn new technologies quickly and independently
       - Complex problem-solving
       - Fluent in English
 
